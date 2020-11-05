@@ -12,7 +12,7 @@
 | Python | = 3.6.8 | 
 
 ## Before you start
-You should have the secrets sent through e-mail in order to decrypt the sensitive files. 
+You should have the secret key sent through e-mail in order to decrypt the sensitive files. 
 
 ## Decrypt files
 > In order to run the code you need to decrypt files code-challenge/prod/terraform.tfvars and code-challenge/prod/.hidden/access.pem
