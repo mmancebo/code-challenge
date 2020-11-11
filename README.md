@@ -44,9 +44,13 @@ $ terraform destroy (Use this command after you've done all validations)
 ## Accessing internal environment
 
 ```sh
+Access DMZ server.: 
+In order to access the DMZ server you need to run the command line. 
+ssh -i .hidden/access.pem <Public_IP>
+
 Access local server.: 
-In order to access the local server you need to run the following command line.
-ssh -i .ssh/access.pem <Public_IP>
+You can only access the local server through the DMZ server, so after access the local host you need to run the following command line.
+ssh -i .ssh/access.pem <Privcate_IP>
 
 Note.: Public and Private IP will be shown after deployment, so you don't need to use console.
 ```
