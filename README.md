@@ -45,8 +45,8 @@ $ terraform destroy (Use this command after you've done all validations)
 
 ```sh
 Access local server.: 
-In order to access to local server you need to run the following command line.
-ssh -i .ssh/access.pem <private_IP>
+In order to access the local server you need to run the following command line.
+ssh -i .ssh/access.pem <Public_IP>
 
 Note.: Public and Private IP will be shown after deployment, so you don't need to use console.
 ```
